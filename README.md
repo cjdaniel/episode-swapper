@@ -6,12 +6,13 @@ needs to be modified.
 
 For each pair, 'src' is the "wrong" episode, and 'dst' is the "right"
 episode. You can use any unique string that is part of the filename, but you
-should probably use the S**E** part. The rest of the file name will be
+should probably use the `S**E**` part. The rest of the file name will be
 preserved as you have it on disk.
 
 The included `episode_pairs` dict is what's needed to correct a popular
 Stargate SG-1 rip with the torrent info hash:
-66cee6aca421c309dc9a7ef5de25a22b657cc06b
+`66cee6aca421c309dc9a7ef5de25a22b657cc06b`
+(you will need to add spaces between the `S**` and `E**` if your media library hasn't renamed the files to a standard format)
 
 ## Testing
 Also included are some test files, with filenames as cleaned up by Sonarr for the TV rip mentioned above. They are just short text files with their original filenames inside for verification. If you run this script against them, you should be able to see that the renaming matches the provided dict.
